@@ -8,6 +8,6 @@ function randomBgHandle(){
 
   const randomImage =images[Math.floor(Math.random() * images.length)]
   const imgId = document.getElementById("img").src;
-  img.src = `/image/${randomImage}`
+  img.src = `./image/${randomImage}`
 }
 imgBtn.addEventListener("click", randomBgHandle)
