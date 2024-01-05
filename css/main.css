@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+@import '../css/reset.css';
+body {
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  background-color: #FCEADB;
+  color: #FD8A69;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn-primary {
+  background-color: #fb9649;
+  border-color: #fb9649;
+}
+.btn-primary:hover {
+  background-color: #f6a02d;
+  border-color: #f6a02d;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.bi {
+  color: #333333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.inner {
+  width: 1400px;
+}
+
+.login {
+  min-height: 154px;
+  padding-bottom: 40px;
+}
+.login.hidden {
+  display: none !important;
+}
+
+.login-wrap p {
+  color: #0E0301;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.login-wrap #login-form input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #FD8A69;
+  height: 40px;
+  padding: 10px;
+}
+
+.login-result h1 {
+  display: inline-block;
+  font-size: 42px;
+  font-weight: 800;
+  letter-spacing: 2.8px;
+  margin-bottom: 10px;
+  color: #1941a3;
+  background: #FFFFFF;
+}
+.login-result p {
+  font-size: 42px;
+  color: #1941a3;
+}
+
+.cont01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont01 .left {
+  width: 65%;
+}
+.cont01 .info-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px dotted #FD8A69;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+.cont01 .info-wrap span {
+  font-size: 18px;
+  color: #555555;
+  font-weight: 500;
+}
+.cont01 .info-wrap span em {
+  font-weight: 400;
+}
+.cont01 .todo-wrap {
+  border: 1px solid #FD8A69;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.cont01 .todo-wrap .todo-form {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  margin-bottom: 10px;
+}
+.cont01 .todo-wrap .todo-form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #fb9649;
+  padding: 0 10px;
+  background-color: transparent;
+}
+.cont01 .todo-wrap .todo-form button {
+  width: 80px;
+  height: 32px;
+  line-height: 1;
+}
+.cont01 .todo-wrap .todo-list {
+  min-height: 236px;
+  max-height: 236px;
+  overflow-y: auto;
+}
+.cont01 .todo-wrap .todo-list .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px dotted #FD8A69;
+  box-sizing: border-box;
+}
+.cont01 .todo-wrap .todo-list .list:last-child {
+  margin-bottom: 0;
+}
+.cont01 .todo-wrap .todo-list .text {
+  color: #333333;
+  margin-left: 6px;
+}
+.cont01 .right {
+  width: 35%;
+  margin-left: 20px;
+}
+.cont01 .bg-box {
+  position: relative;
+  height: 400px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.cont01 .bg-box::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  background: url("../image/sticker.svg");
+  background-size: cover;
+  transform: rotate(-10deg);
+}
+.cont01 .bg-box p {
+  position: absolute;
+  top: 30px;
+  left: 10%;
+  transform: rotate(-10deg);
+  z-index: 10;
+  color: #f6f6f6;
+  font-size: 32px;
+}
+.cont01 .bg-box .img-box {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 360px;
+  padding: 10px;
+  background-color: #febebe;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.cont01 .bg-box img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #febebe;
+}
+.cont01 .bg-box .img-btn {
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}/*# sourceMappingURL=main.css.map */
